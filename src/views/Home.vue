@@ -1,7 +1,5 @@
 <template>
   <div class="home">
-    Please subscribe here
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
