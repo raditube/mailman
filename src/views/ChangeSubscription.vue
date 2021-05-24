@@ -73,7 +73,6 @@ export default {
       this.disinfo_report = this.subscription.disinfo_report;
 
       this.loading = false;
-      console.log(response);
     }, (error) => {
       console.log(error);
     });
@@ -154,7 +153,6 @@ button {
   background-color: white; 
   border: none;
   font-family: 'Ilisarniq-Regular';
-  /* color: white; */
   padding: .85rem 2rem;
   text-align: center;
   text-decoration: none;

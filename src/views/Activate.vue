@@ -28,8 +28,7 @@ export default {
       id: this.currentMeta.id,
       activated: true
     })
-    .then((response) => {
-      console.log(response);
+    .then(() => {
       this.$router.push({ name: 'ChangeSubscription', params: { id: this.currentMeta.id } })
     }, (error) => {
       console.log(error);

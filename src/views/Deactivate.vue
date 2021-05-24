@@ -26,8 +26,7 @@ export default {
       id: this.currentMeta.id,
       activated: false
     })
-    .then((response) => {
-      console.log(response);
+    .then(() => {
     }, (error) => {
       console.log(error);
     });
